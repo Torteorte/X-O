@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: darkgray;
+  }
+  
+  .container {
+    background-color: rgb(37, 36, 36);
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px 0 black;
+    min-height: 520px;
+  }
+  
+  .restart {
+    width: 200px;
+    padding: 0 20px;
+    height: 70px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    display: block;
+    background-color: Thistle;
+    border: 1px solid rgb(37, 36, 36);
+    border-radius: 10px;
+  }
+  
+  .restart:active {
+    background-color: Thistle;
+  }
+  
+  .symbol-turn {
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(255, 229, 205);
+    text-align: center;
+  }
+  
+  input {
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+    background: none;
+    border: none;
+    color: rgb(255, 229, 205);
+  }
+  
+  .container-buttons {
+    width: 235px;
+    height: 235px;
+    margin: auto;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+    gap: 5px;
+  }
+  
+  button {
+    height: 75px;
+    background-color: RosyBrown;
+    font-size: 50px;
+    border: none;
+    transition: 100ms;
+  }
+  
+  button:hover {
+    background-color: Plum;
+  }
+  
+  button:active {
+    background-color: Orchid;
+  }
+  
+  button:disabled {
+    color: black;
+  }
+  
+  button:hover:disabled {
+    background-color: Plum;
+  }
+  
+  .winner {
+    margin: auto;
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    color: Silver;
+  }
+  
+  .green {
+    color: ForestGreen;
+  }
+  
+  .red {
+    color: FireBrick;
+  }
