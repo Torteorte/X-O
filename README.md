@@ -1,1 +1,2 @@
-# X-O
+Крестики нолики 
+https://torteorte.github.io/X-O/
